@@ -1,0 +1,468 @@
+{
+	"info": {
+		"_postman_id": "c657a077-24b1-4a6d-8ce5-506743af59f4",
+		"name": "testint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Test Case",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234abcd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "django",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3454/contact-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3454",
+					"path": [
+						"contact-api",
+						""
+					]
+				},
+				"description": "Fetching All Contacts"
+			},
+			"response": []
+		},
+		{
+			"name": "Get One Test Case",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234abcd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "django",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"bhagavan\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3454/contact-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3454",
+					"path": [
+						"contact-api",
+						""
+					]
+				},
+				"description": "Fetchind one record"
+			},
+			"response": []
+		},
+		{
+			"name": "Posting Test Case ContactModel",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234abcd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "django",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"bhagavan\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3454/contactbook-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3454",
+					"path": [
+						"contactbook-api",
+						""
+					]
+				},
+				"description": "Adding new contact"
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Test Case ContactBookModel",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234abcd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "django",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"bhagavan\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3454/contactbook-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3454",
+					"path": [
+						"contactbook-api",
+						""
+					]
+				},
+				"description": "Getting all details of ContactBookModel"
+			},
+			"response": []
+		},
+		{
+			"name": "Get one Record from ContacttBookModel",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234abcd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "django",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"bhagavan\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3454/contactbook-api/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3454",
+					"path": [
+						"contactbook-api",
+						"1",
+						""
+					]
+				},
+				"description": "Getting first record contact details"
+			},
+			"response": []
+		},
+		{
+			"name": "Put 13 th Contact Model Name",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234abcd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "django",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 13,\n    \"contact_person\": [\n        {\n            \"id\": 14,\n            \"email\": \"pandu@gmail.com\",\n            \"mobile\": 546564548,\n            \"address\": \"hyd\",\n            \"contact\": 13\n        }\n    ],\n    \"name\": \"gowtham\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3454/contact-api/13/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3454",
+					"path": [
+						"contact-api",
+						"13",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put 13 th ContactBookModel address",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234abcd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "django",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"gowtam@gmail.com\",\n    \"mobile\":\"1234567892\",\n    \"address\":\"bangalore\",\n    \"contact\":13\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3454/contactbook-api/13/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3454",
+					"path": [
+						"contactbook-api",
+						"13",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch 13 th ContactBook Model location only",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234abcd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "django",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \n    \"address\":\"chennai\",\n    \"contact\":13\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3454/contactbook-api/13/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3454",
+					"path": [
+						"contactbook-api",
+						"13",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Contact model 13 th record",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234abcd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "django",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:3454/contact-api/13/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3454",
+					"path": [
+						"contact-api",
+						"13",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
